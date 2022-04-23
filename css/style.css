@@ -570,6 +570,7 @@ progress::-moz-progress-value {
   background: rgba(0, 0, 0, 0.5);
   padding: 3rem 0;
   display: flex;
+  transition: all 0.5s;
 }
 
 .modal__inner {
@@ -651,7 +652,9 @@ progress::-moz-progress-value {
 /* Дополнительные классы  */
 
 .hidden {
-  display: none;
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
 }
 
 /*сетка*/
