@@ -633,11 +633,17 @@ progress::-moz-progress-value {
 /* дополнительный стиль для модальной кнопки закрытия */
 .modal__button-close {
   position: absolute;
-  right: 1rem;
+  right: 1.3rem;
   top: 1rem;
   font-size: 5rem;
   color: var(--text-white-color);
   background-color: transparent;
+  transition: all 0.1s;
+}
+
+/* увеличение при наведении - просто для красоты */
+.modal__button-close:hover {
+  transform: scale(110%);
 }
 
 .active {
