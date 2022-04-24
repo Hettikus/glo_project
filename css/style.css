@@ -663,6 +663,10 @@ progress::-moz-progress-value {
   opacity: 0;
 }
 
+.red_text {
+  color: red;
+}
+
 /*сетка*/
 @media (max-width: 108em) {
   html {
